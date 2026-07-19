@@ -1,5 +1,4 @@
-# CodeAlpha_Task3_Handwritten_Character_Recognition
-Handwritten Character Recognition is an ML project that trains a model to read and classify handwritten letters or digits from images.
+
 # ✍️ Handwritten Character Recognition using CNN
 
 ## 📌 Project Overview
@@ -30,37 +29,6 @@ The objective of this project is to:
 
 ---
 
-## 📂 Dataset
-
-### MNIST Dataset
-
-The MNIST dataset contains:
-
-- 70,000 handwritten digit images
-- 60,000 Training Images
-- 10,000 Testing Images
-- Image Size: **28 × 28 pixels**
-- Classes: **10 (Digits 0–9)**
-
-Future extension:
-
-- EMNIST Dataset (Letters A–Z)
-- Custom handwritten datasets
-
----
-
-## 📁 Project Structure
-
-```
-HandwrittenCharacterRecognition/
-│
-├── train.py                 # Model Training
-├── predict.py               # Prediction Script
-├── handwritten_digit_model.h5
-├── README.md
-└── images/
-```
-
 ---
 
 ## ⚙️ Installation
@@ -74,7 +42,7 @@ git clone https://github.com/your-username/HandwrittenCharacterRecognition.git
 Move into the project folder:
 
 ```bash
-cd HandwrittenCharacterRecognition
+cd Handwritten_Character_Recognition
 ```
 
 Install dependencies:
@@ -97,22 +65,6 @@ python train.py
 
 ```bash
 python predict.py
-```
-
----
-
-## 🧠 Model Architecture
-
-The CNN consists of:
-
-1. Convolution Layer (32 Filters)
-2. Max Pooling Layer
-3. Convolution Layer (64 Filters)
-4. Max Pooling Layer
-5. Flatten Layer
-6. Dense Layer (128 Neurons)
-7. Dropout Layer
-8. Output Layer (Softmax)
 
 ---
 
@@ -144,18 +96,6 @@ Predicted Digit
 *(Accuracy may vary depending on the number of training epochs and system configuration.)*
 
 ---
-
-## 📈 Future Enhancements
-
-- Handwritten Alphabet Recognition using EMNIST.
-- Full Word Recognition using CRNN.
-- Real-time Camera Recognition.
-- Flask/Django Web Application.
-- Android Application.
-- OCR for Documents.
-
----
-
 ## 📷 Sample Output
 
 ```
@@ -166,43 +106,3 @@ Predicted Digit: 7
 
 Confidence: 99.2%
 ```
-
----
-
-## 🚀 Applications
-
-- Bank cheque recognition
-- Postal code recognition
-- Digital document processing
-- Educational applications
-- Automatic form processing
-- OCR systems
-- Historical document digitization
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Push the branch.
-5. Create a Pull Request.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-
-B.Tech CSE Student
-
-Machine Learning | Deep Learning | Python Developer
